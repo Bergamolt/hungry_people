@@ -328,6 +328,10 @@ img {
     margin-bottom: 15px;
 }
 
+.section-content-media {
+    text-align: center;
+}
+
 .section-content-media-image {
     display: inline-block;
     position: relative;
@@ -733,6 +737,11 @@ img {
     .section-content {
         grid-template-columns: 1fr;
     }
+
+    .section-content-media_align-left {
+        text-align: center;
+    }
+
 
     .section-content-media-image {
         margin-top: 20px;
